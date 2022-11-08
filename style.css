@@ -1,0 +1,135 @@
+header {
+  background-color: rgb(168, 222, 168);
+  padding: 5px;
+  text-align: center;
+  font-size: 26px;
+  color: rgb(17, 17, 17);
+}
+nav {
+  float: left;
+  width: 300px;
+  height: 100px; /* only for demonstration, should be removed */
+}
+nav ul {
+  list-style-type: none;
+  padding: 10px;
+}
+article {
+  float: left;
+  padding: 10px;
+  width: 100%;
+  background-color: #7e5a5a;
+  height: 200px; /* only for demonstration, should be removed */
+  font-size: 15px;
+}
+section {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: rgb(111, 120, 117);
+}
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.logo{
+  width: 100px;
+  float: left;
+  height: 100px;
+  margin: 10px;
+  
+}
+.logo img{
+  width: 270px;
+  height: 270px;
+
+}
+
+.title{
+    text-align: center;
+    text-decoration-color: rgb(203, 196, 210);
+    background-color: rgb(237, 228, 245);
+    padding: 5%;
+}
+.main_menu{
+  width: 1000px;
+  margin: 0 auto;
+  min-height: 59px;
+}
+.main_menu li{
+  list-style-type: none;
+  padding: 5px;
+  background-color: rgb(216, 158, 158);
+  float: left;
+  transition: all 0.4s;
+  width: 20%;
+  position: relative;
+  left: 200px;
+
+
+}
+.main_menu li:hover {
+background-color: rgb(196, 43, 132);
+}
+.main_menu li a{
+  text-decoration: none;
+  color: white;
+}
+
+.text{
+    color: rgb(57, 9, 101);
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.link{
+    color: black;
+}
+.a{
+    text-align: left;
+}
+.main_menu{
+  width: 970px;
+  margin: 0 auto;
+  
+  min-height: 70px;
+
+}
+
+
+header{
+  padding: 15px;
+  text-align: center;
+  font-size: 22px;
+  color: rgb(73, 14, 14);
+}
+
+.m{
+    -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+.art{
+    -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+.table th{
+  text-align: center;
+  text-decoration: solid;
+  text-color:black;
+  background-color: rgb(92, 159, 159);
+}
+.table td{
+  text-size-adjust: 10px;
+}
